@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": false,
+    "noEmitHelpers": false,
+    "declaration": true,
+    "skipLibCheck": true,
+    "stripInternal": true,
+    "lib": ["es2015", "dom"],
+    "outDir": "./lib/"
+  },
+  "exclude": [
+    "node_modules/*",
+    "**/*-aot.ts"
+  ],
+  "files": [
+    "./index.ts"
+  ],
+  "angularCompilerOptions": {
+    "genDir": "./lib"
+  }
+}

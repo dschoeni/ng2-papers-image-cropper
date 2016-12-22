@@ -1,0 +1,26 @@
+{
+  "name": "ng2-webpack-minimal",
+  "version": "1.0.0",
+  "description": "A minimal webpack-based example",
+  "scripts": {
+    "start": "webpack-dev-server --host 0.0.0.0 --colors --display-error-details --content-base src"
+  },
+  "devDependencies": {
+    "@types/node": "6.0.x",
+    "typescript": "2.0.x",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "@angular/common": "2.3.x",
+    "@angular/compiler": "2.3.x",
+    "@angular/compiler-cli": "2.3.x",
+    "@angular/core": "2.3.x",
+    "@angular/platform-browser": "2.3.x",
+    "@angular/platform-browser-dynamic": "2.3.x",
+    "@angular/platform-server": "2.3.x",
+    "reflect-metadata": "0.1.9",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "0.6.x"
+  }
+}

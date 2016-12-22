@@ -1,0 +1,51 @@
+{
+  "name": "ng2-papers-image-cropper",
+  "version": "0.9.0",
+  "description": "This library provides an instagram inspired, fixed aspect-ratio imagecropper where the image can be manipulated using touch/mouse input. It is compatible with Ionic2.",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "scripts": {
+    "develop": " npm run ngc -w",
+    "build": "rimraf lib/ && npm run ngc -p tsconfig.json",
+    "publish": "npm run aot && npm run build",
+    "ngc": "ngc",
+    "rimraf": "rimraf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dschoeni/ng2-papers-image-cropper.git"
+  },
+  "keywords": [
+    "Angular",
+    "2",
+    "Library",
+    "Image",
+    "Cropper",
+    "Papers.ch",
+    "Ionic"
+  ],
+  "author": "Papers.ch & d.schoeni@papers.ch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dschoeni/ng2-papers-image-cropper/issues"
+  },
+  "devDependencies": {
+    "rimraf": "2.5.x",
+    "typescript": "2.0.x"
+  },
+  "dependencies": {
+    "@angular/common": "2.3.x",
+    "@angular/compiler": "2.3.x",
+    "@angular/compiler-cli": "2.3.x",
+    "@angular/core": "2.3.x",
+    "@angular/platform-browser": "2.3.x",
+    "@angular/platform-browser-dynamic": "2.3.x",
+    "blueimp-canvas-to-blob": "3.3.0",
+    "exif-js": "exif-js/exif-js#5b6cd6599f801c44490af525adb90da9b5651751",
+    "hammerjs": "2.0.8",
+    "reflect-metadata": "0.1.x",
+    "rxjs": "5.0.0-beta.12",
+    "tslint": "3.15.x",
+    "zone.js": "0.6.x"
+  }
+}

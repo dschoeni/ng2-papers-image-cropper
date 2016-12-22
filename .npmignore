@@ -1,0 +1,9 @@
+.idea
+*.ts
+!*.d.ts
+*.json
+!*.metadata.json
+.npmignore
+examples
+.editorconfig
+aot
