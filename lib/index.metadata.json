@@ -1,1 +1,1 @@
-{"__symbolic":"module","version":1,"metadata":{},"exports":[{"from":"./src/ImageCropperComponent"},{"from":"./src/ImageCropper.module","export":["ImageCropperModule"]}]}
+[{"__symbolic":"module","version":3,"metadata":{},"exports":[{"from":"./src/ImageCropperComponent"},{"from":"./src/ImageCropper.module","export":["ImageCropperModule"]}]},{"__symbolic":"module","version":1,"metadata":{},"exports":[{"from":"./src/ImageCropperComponent"},{"from":"./src/ImageCropper.module","export":["ImageCropperModule"]}]}]
