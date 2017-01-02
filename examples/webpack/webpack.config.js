@@ -7,7 +7,6 @@ module.exports = {
     app: path.join(srcPath, './app.ts'),
     common: [
         'reflect-metadata/Reflect.js',
-        'es6-shim/es6-shim',
         'zone.js/dist/zone.js'
       ]
   },
