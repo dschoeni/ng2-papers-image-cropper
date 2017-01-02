@@ -29,7 +29,11 @@ Clone the repository and do:
 
 # Building the library & watch it
 
-    npm run watch
+    npm run develop
+    
+# Build the library for production
+
+    npm run build
 
 ## Install the Webpack Example & start it
 

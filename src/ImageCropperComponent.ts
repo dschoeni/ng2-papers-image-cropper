@@ -3,6 +3,8 @@ import { Observer, Observable } from 'rxjs';
 
 import 'blueimp-canvas-to-blob'; // toBlob polyfill
 import 'hammerjs';
+
+declare function require(moduleName: string): any;
 let EXIF = require('exif-js');
 
 @Component({
